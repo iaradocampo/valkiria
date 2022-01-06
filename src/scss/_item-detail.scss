@@ -1,0 +1,64 @@
+.detail {
+    padding-top: 10rem;
+    height: 47rem;
+    border-radius: 1rem;
+}
+
+h2 {
+    color: #00dbafda;
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.description {
+    text-align: left;
+    color: #00dbafda;
+    font-size: 1.2em;
+}
+
+.img-detail {
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    object-fit: cover;
+}
+
+.i {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-sumrest {
+    background-color: #361d64;
+    color: #00dbafda;
+    border: none;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+    font-size: 2em;
+    text-align: center;
+}
+
+.add-cart {
+    background-color: #361d64;
+    color: #00dbafda;
+    border: none;
+    border-radius: 4rem;
+    width: 13rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+}
+
+.end-shop {
+    background-color: #361d64;
+    color: #00dbafda;
+    border: none;
+    border-radius: 4rem;
+    width: 13rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+}

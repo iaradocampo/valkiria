@@ -1,0 +1,55 @@
+.p-order {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #00dbafda;
+    margin-top: 2rem;
+}
+
+.p-resume {
+    font-size: 2em;
+    color: #00dbafda;
+}
+
+.n-order {
+    font-size: 1.1em;
+    color: #00dbafda;
+    margin-bottom: 2rem;
+}
+
+.p-compra {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    color: #00dbafda;
+    margin-bottom: 1.6rem;
+}
+
+.container-modal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-order {
+    padding: 2rem;
+    width: 40rem;
+    height: 100%;
+    background-color: #361d64a1;
+    margin-top: 3rem;
+}
+
+.btn-order {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.detail-shop {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #543c83a1;
+    margin-bottom: 2rem;
+    height: 5rem;
+    padding: 1.5rem 1rem;
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@500&display=swap');
+
+.navbar {
+    background-color: #130b22;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 100px;
+}
+
+.dropdown-menu {
+    background-color: #361d64;
+    border: none;
+}
+
+.dropdown-item {
+    font-size: 1.1em;
+    color: #00dbafda;
+
+    &:hover {
+        background-color: #00dbafda;
+        color: #361d64;
+    }
+}
+
+.navbar-brand {
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #00dbafda !important;
+    letter-spacing: 3px;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.a-brand {
+    text-decoration: none;
+}
+
+.a {
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #00dbafda;
+
+    &:hover {
+        color: #361d64;
+    }
+}
+
+.a-cart {
+    color: #00dbafda;
+    text-decoration: none;
+
+    &:hover {
+        color: #00dbafda;
+    }
+}
+
+
+.nav-link {
+    color: #00dbafda !important;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    padding: 0 1rem !important;
+}

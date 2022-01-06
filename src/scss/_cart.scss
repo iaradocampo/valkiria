@@ -1,0 +1,151 @@
+.cart {
+    min-height: 100vh;
+    margin-top: 10rem;
+}
+
+h1 {
+    font-size: 2em;
+    color: #00dbafda;
+}
+
+hr {
+    border: 1px solid #00dbafda;
+    width: 65%;
+}
+
+.h2-cart {
+    font-size: 1.6em;
+    color: #00dbafda;
+    margin-bottom: 5rem;
+    text-align: left;
+}
+
+.h2 {
+    font-size: 1em;
+    color: black;
+    text-align: right;
+}
+
+h3 {
+    color: #00dbafda;
+    padding-left: 8rem;
+    padding-right: 2rem;
+    margin: auto;
+}
+
+.p-total {
+    color: #00dbafda;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 2rem;
+}
+
+.p-empty {
+    font-size: 2em;
+    color: #00dbafda;
+    margin-top: 3rem;
+}
+
+.container-cart {
+    margin-top: 3rem;
+    height: 20rem;
+}
+
+.cart-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-container-cart {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin-right: 2rem;
+}
+
+.img-cart {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.btn-cart {
+    display: inline-block;
+    position: relative;
+    border-radius: 5rem;
+    border-color: transparent;
+    color: #00dbafda;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: .15rem;
+    transition: 0.5s;
+    overflow: hidden;
+    background-color: #361d64;
+    z-index: 1;
+    width: 15rem;
+    height: 4rem;
+    margin-top: 3rem;
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #00dbafda;
+        transition: all .3s;
+        z-index: -1;
+        border-color: #00dbafda;
+    }
+
+    &:hover {
+        color: #361d64;
+        border-color: transparent;
+        background-color: transparent;
+
+        &:before {
+            width: 100%;
+
+        }
+    }
+}
+
+input {
+    width: 5rem;
+    text-align: center;
+}
+
+.container-tot {
+    margin: 3rem auto;
+    width: 24rem;
+    height: 20rem;
+    background-color: #361d64a1;
+}
+
+.total {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
