@@ -1,5 +1,7 @@
 # VALKIRIA ecommerce
 
+https://user-images.githubusercontent.com/85142033/148599560-7c06d0d8-efcb-4f8d-aa9a-8da442600385.mp4
+
 ## DEPENDENCIES AND VERSIONS 
 
 [![bootstrap](https://img.shields.io/badge/bootstrap-%5E5.1.3-purple)](https://react-bootstrap.github.io/)
