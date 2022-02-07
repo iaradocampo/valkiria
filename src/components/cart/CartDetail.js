@@ -13,11 +13,11 @@ const CartDetail = () =>{
                 <div className="container-cart">  
                     <div className="cart-content">
                         <div className="img-container-cart">
-                            <img className="img-cart" src={item.item.image}/>
+                            <img className="img-cart" src={item.item.image} alt={item.item.title}/>
                         </div>
                         <div>
                             <h2 className="h2-cart" key={item.item.id}>{item.item.title}</h2>
-                            <ButtonGroup style={{boxShadow: "none"}} variant="contained" aria-label="outlined primary button group">
+                            <ButtonGroup style={{boxShadow: "none", flexWrap: "wrap"}} variant="contained" aria-label="outlined primary button group">
                                 <Button 
                                     style={{
                                         width: "4rem",
@@ -44,18 +44,18 @@ const CartDetail = () =>{
                                     +
                                 </Button>
                                 <h3>${item.item.price}.00</h3>
+                                <Button 
+                                    style={{
+                                        width: "4rem",
+                                        height: "3rem",
+                                        backgroundColor: "#361d64", 
+                                        color: "#00dbafda", 
+                                        border: "none"
+                                    }} 
+                                    onClick={ () => deleteItem(item.item.id) }>
+                                    <DeleteOutlineRoundedIcon />
+                                </Button>
                             </ButtonGroup>
-                            <Button 
-                                style={{
-                                    width: "4rem",
-                                    height: "3rem",
-                                    backgroundColor: "#361d64", 
-                                    color: "#00dbafda", 
-                                    border: "none"
-                                }} 
-                                onClick={ () => deleteItem(item.item.id) }>
-                                <DeleteOutlineRoundedIcon />
-                            </Button>
                         </div>
                     </div>  
                 </div>

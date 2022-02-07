@@ -4,7 +4,24 @@
     background-color: #130b22;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    height: 100px;
+}
+
+.navbar-toggler {
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.navbar-collapse {
+    padding-top: 1rem;
+    background-color: #130b22;
+}
+
+.nav-link {
+    color: #00dbafda !important;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    padding: 0 1rem !important;
 }
 
 .dropdown-menu {
@@ -51,12 +68,4 @@
     &:hover {
         color: #00dbafda;
     }
-}
-
-
-.nav-link {
-    color: #00dbafda !important;
-    font-size: 1.1em;
-    letter-spacing: 1px;
-    padding: 0 1rem !important;
 }

@@ -1,14 +1,22 @@
 .detail {
     padding-top: 10rem;
-    height: 47rem;
-    border-radius: 1rem;
+    min-height: 80vh;
 }
 
 h2 {
     color: #00dbafda;
     font-size: 2em;
     text-align: left;
-    margin-bottom: 2rem;
+}
+
+@media (min-width: 375px) and (max-width: 1024px) {
+    h2 {
+        text-align: center;
+    }
+}
+
+.container-h2 {
+    margin: 2rem 0 2rem 0;
 }
 
 .description {
@@ -24,9 +32,23 @@ h2 {
     object-fit: cover;
 }
 
+@media (min-width: 375px) and (max-width: 1024px) {
+    .img-detail {
+        width: 100%;
+        height: 100%;
+    }
+}
+
 .i {
     display: flex;
     flex-direction: column;
+}
+
+@media (min-width: 375px) and (max-width: 1024px) {
+    .i {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .btn-sumrest {

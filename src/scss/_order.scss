@@ -37,6 +37,12 @@
     margin-top: 3rem;
 }
 
+@media (min-width: 375px) and (max-width: 768px) {
+    .container-order {
+        width: 100%;
+    }
+}
+
 .btn-order {
     display: flex;
     justify-content: center;
@@ -52,4 +58,10 @@
     height: 5rem;
     padding: 1.5rem 1rem;
     box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+    .detail-shop {
+        height: 6rem;
+    }
 }

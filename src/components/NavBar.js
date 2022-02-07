@@ -1,4 +1,5 @@
 import Badge from '@mui/material/Badge';
+import MenuIcon from '@mui/icons-material/Menu';
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import CartWidget from "./cart/icon/CartWidget";
 import { Link } from 'react-router-dom';
@@ -14,7 +15,14 @@ function NavBar () {
                 <Link className="a-brand" to='/'>
                     <Navbar.Brand>Valkiria</Navbar.Brand>
                 </Link>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Toggle aria-controls="responsive-navbar-nav">
+                    <MenuIcon 
+                        style={{
+                            color: "#00dbafda",
+                            fontSize: "2em"
+                        }}
+                    />
+                </Navbar.Toggle>
                 <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
                     <Nav>
                         <NavDropdown title="Categorías" id="basic-nav-dropdown">

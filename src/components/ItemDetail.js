@@ -40,11 +40,14 @@ const ItemDetail = ({item}) =>{
         <Container>
             <div className="detail">
                 <Row>
-                    <Col sm={12} md={6} lg={6}>
-                        <img className="img-detail" src={item.image} alt="producto" />
+                    <Col sm={12} md={12} lg={6}>
+                        <img className="img-detail" src={item.image} alt={item.title} />
                     </Col>
-                    <Col sm={12} md={6} lg={6}>       
-                        <h2>{item.title} - ${item.price}</h2>
+                    <Col sm={12} md={12} lg={6}>
+                        <div className="container-h2">       
+                            <h2>{item.title}</h2>
+                            <h2>${item.price}</h2>
+                        </div>
                         <p className="description">{item.description}</p>
                         <ItemCount stock={item.stock} initial={item.stock >= 1 ? 1 : 1} onAdd={onAdd} />
                     </Col>

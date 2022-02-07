@@ -52,6 +52,9 @@ const Input = styled.input`
         outline: none;
         box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
     }
+    @media (min-width: 375px) and (max-width: 500px){
+        width: 80%
+    }
     ${props => props.validate === 'true' && css`
         border: 3px solid transparent;
     `}
